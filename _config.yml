@@ -98,9 +98,4 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hacker
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/samxfb/samxfb.github.io.git
-  branch: main
+# Deployment handled by GitHub Actions (.github/workflows/deploy.yml)
